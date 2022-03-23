@@ -1,7 +1,7 @@
 {
-    "name": "XrayHeroku",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "ejector",
+    "description": "ejector websocket proxy on heroku",
+    "keywords": ["ejector vmess vless trojan shadowsocks socks tor"],
     "env": {
         "AA": {
             "description": "初阶用户",
@@ -17,11 +17,11 @@
         },
         "CONFIGCADDY": {
             "description": "请勿修改",
-            "value": "https://raw.githubusercontent.com/账号名/仓库名/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/kuthank22/ejector/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "请勿修改",
-            "value": "https://raw.githubusercontent.com/账号名/仓库名/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/kuthank22/ejector/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义",
-            "value": "https://raw.githubusercontent.com/账号名/仓库名/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/kuthank22/ejector/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/账号名/仓库名",
-    "repository": "https://github.com/账号名/仓库名",
+    "website": "https://github.com/kuthank22/ejector",
+    "repository": "https://github.com/kuthank22/ejector",
     "stack": "container"
 }
